@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8861ab68c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="containor">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact ">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Sharjil Pathan</span> <br>From India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT -->
+    <div id="about">
+        <div class="containor">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="img/user3.png" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am dedicated and adaptable individual with a robust foundation in computer science and application
+                        development. Currently pursuing a Master of Computer Application at GH Raisoni University, he combines his
+                        academic achievements—such as an 8.54 CGPA in Bachelor of Computer Application—with hands-on expertise in
+                        programming languages, web development, and database management.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Fullstack Java Developer</span><br>Designing Web Interfaces</li>
+                            <li><span>App Development</span><br>Designing Web Interfaces</li>
+                            <li><span>React.js</span><br>Designing Web Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>asd</span><br>Designing Web Interfaces</li>
+                            <li><span>fgh</span><br>Designing Web Interfaces</li>
+                            <li><span>55t5</span><br>Designing Web Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>qwe</span><br>Designing Web Interfaces</li>
+                            <li><span>yhyh</span><br>Designing Web Interfaces</li>
+                            <li><span>kiki</span><br>Designing Web Interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+     <div id="services">
+        <div class="containor">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quas ratione expedita omnis totam asperiores consequatur non similique obcaecati pariatur iste quo corrupti nam, ea officiis fugiat nulla dolores quasi.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quas ratione expedita omnis totam asperiores consequatur non similique obcaecati pariatur iste quo corrupti nam, ea officiis fugiat nulla dolores quasi.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quas ratione expedita omnis totam asperiores consequatur non similique obcaecati pariatur iste quo corrupti nam, ea officiis fugiat nulla dolores quasi.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Portfolio -->
+
+     <div id="portfolio">
+        <div class="containor">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi nisi optio voluptates earum eum et autem pariatur non mollitia animi culpa, iusto perferendis, numquam quisquam officia, voluptate doloribus. Quasi!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi nisi optio voluptates earum eum et autem pariatur non mollitia animi culpa, iusto perferendis, numquam quisquam officia, voluptate doloribus. Quasi!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shop App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sequi nisi optio voluptates earum eum et autem pariatur non mollitia animi culpa, iusto perferendis, numquam quisquam officia, voluptate doloribus. Quasi!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+    <!-- contact -->
+     <div id="contact">
+        <div class="containor">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sharjilahmadkhan1122@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8530272912</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/sharjilllll/profilecard/?igsh=dzdyd2tkcmNuaGcx "><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sharjil-pathan-4485aa334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/MY_RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright&copy Sharjil. Made <i class="fa-solid fa-heart"></i> By Sharjil Pathan</p>
+        </div>
+     </div>
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabName){
+            // Loop through all tab links and remove the "active-link" class
+            for (let tabLink of tabLinks) {
+                tabLink.classList.remove("active-link");
+            }
+
+            // Loop through all tab contents and remove the "active-tab" class
+            for (let tabContent of tabContents) {
+                tabContent.classList.remove("active-tab");
+            }
+            // Add the "active-link" class to the clicked tab
+            for (let tabLink of tabLinks) {
+                if (tabLink.innerText.toLowerCase() === tabName) {
+                    tabLink.classList.add("active-link");
+                }
+            }
+
+            // Add the "active-tab" class to the corresponding tab content
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbypaQZxzjV9FHITLuvtK1zF1cQ8OffImqYjs-qtdrJf3GV9-yJPgrRdT0gZkHuDoiWy/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },2000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+</body>
+</html>
